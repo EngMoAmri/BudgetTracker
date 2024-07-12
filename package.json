@@ -1,0 +1,19 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "Project to track your budget",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --watch **/*.js --ignore public/ --exec node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Qaid",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
